@@ -15,4 +15,4 @@ Steps on how to create GitHub page
 10. Optionally, open the README.md file of your repository. The README.md file is where you will write the content for your site. You can edit the file or keep the default content for now.
 11. Visit username.github.io to view your new website. Note that it can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub.
 
-> It is needless to claim that creating a webpage is fun, it takes such time to accomplish. More than the technicalities needed, creativity is also being tested. 
+> It is needless to claim that creating a webpage is fun, but it takes such time to accomplish. More than the technicalities needed, creativity is also being tested. 
