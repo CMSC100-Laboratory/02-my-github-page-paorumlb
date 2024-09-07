@@ -1,0 +1,159 @@
+body {
+    background-color: white;
+}
+
+/* header */
+
+.header{
+    border-style:hidden;
+    margin-bottom: 5%;
+    display: flex;           
+    align-items: center;     
+    justify-content: center; 
+    gap: 20px;               
+}
+
+.button-container {
+    display:flex;
+    gap:90px;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 4%;
+}
+
+.button-container button {
+    padding: 1px 20px;
+    background-color: yellow;
+    border-color:white;;
+    color: black;
+    cursor: pointer;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+}
+
+.button-container button:hover {
+    background-color: #b0b300;
+}
+
+
+
+/* about pao */
+.aboutpao {
+    display: flex;
+    justify-content: center;
+}
+
+.yellowbg {
+    display: flex;
+    background-color: yellow; 
+}
+
+.paolopic {
+    margin-right: 20px; 
+    margin-bottom: -500px;
+}
+
+.paolopic img {
+    width: 500px; 
+    height: 430px; 
+    margin-bottom:-86%
+}
+
+.autobio {
+    max-width: 600px; 
+    line-height: 1.5; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0%;
+    padding:30px;
+}
+
+.aboutpao h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    font-weight: 750;
+}
+
+
+
+
+
+/* project and skills */
+.projskills {
+    display: flex;
+}
+
+.projskills > div {
+    background-color: #f1f1f1;
+    flex: 1;
+    margin: 10px; 
+    padding: 20px; 
+    font-size: 30px;
+}
+  
+.projskills > .projects{
+    background-color: white;
+    flex:1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+
+.projskills > .projects> .desc {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+
+.projskills > .skills{
+    background-color: yellow;
+}
+
+
+.projskills > .skills > .lt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.projskills > .skills > .gskills {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+
+.labels {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    font-weight: 750;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/* footer */
+.footer {
+    display: flex;
+}
+
+.footlogo {
+    margin-right: 20px; 
+}
+
+.footer img {
+    width: 70px;
+    height: 70px;
+}
+
+.footinfo {
+    display:flex;
+    flex-direction: column;  
+    gap:-100px;
+}
+
+.footinfo p{
+    margin: 0;
+    padding: 0;
+}
